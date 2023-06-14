@@ -1,0 +1,35 @@
+.reviews {
+    display: flex;
+    flex-direction: column;
+    background: $smoke;
+    align-items: center;
+    justify-content: center;
+  
+    .headline {
+      padding-top: 100px;
+      padding-bottom: 50px;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .people {
+      display: flex;
+      flex-direction: row;
+      gap: 70px;
+      text-align: center;
+      padding-bottom: 100px;
+    }
+  
+    img {
+      width: 200px;
+      border-radius: 100px;
+    }
+  
+    .margaret,
+    .sarah,
+    .fred {
+      p {
+        width: 400px;
+      }
+    }
+  }

@@ -1,0 +1,55 @@
+footer {
+  display: flex;
+  height: 100px;
+  flex-direction: row;
+  justify-content: space-between;
+  background: $smoke;
+
+  .text {
+    padding-left: 200px;
+    padding-top: 40px;
+  }
+
+  .terms {
+    display: flex;
+    gap: 20px;
+
+    a {
+      color: $blue;
+    }
+  }
+
+  .logos {
+    display: flex;
+    padding-top: 40px;
+    transition: 1s;
+    align-items: center;
+    justify-content: center;
+    margin-right: 70px;
+    gap: 10px;
+  }
+
+  img:hover {
+    cursor: pointer;
+    animation: spin 1s linear infinite;
+  }
+
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+  img {
+    width: 50px;
+  }
+
+  .copyright {
+    display: flex;
+    text-align: left;
+    color: gray;
+  }
+}

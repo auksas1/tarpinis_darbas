@@ -1,0 +1,44 @@
+header {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    background: $smoke;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+
+    h1, a {
+      margin: 20%;
+      transition: 0.4s;
+    }
+
+    h1:hover {
+      cursor: pointer;
+      color: rgb(150, 3, 32);
+      padding: 10px 15px;
+      background: black;
+      border-radius: 10px;
+    }
+  
+    a {
+      background: $blue;
+      padding: 8px;
+      margin-left: 20px;
+      color: white;
+      border: 0.2px solid $blue;
+      border-radius: 8px;
+      transition: 0.3s;
+    }
+  
+    a:hover {
+      cursor: pointer;
+      background: white;
+      color: black;
+    }
+  }
